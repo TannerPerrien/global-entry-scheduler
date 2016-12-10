@@ -1,6 +1,6 @@
 $(function() {
   $('#signup').click(function() {
-    $(this).fadeOut();
+    $('#signupContainer').collapse('hide');
   });
   
   $('#form').on('submit', function(e) {
