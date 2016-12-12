@@ -1,3 +1,8 @@
+var host = 'globalentryscheduler.com';
+if (window.location.host == host && window.location.protocol != 'https:') {
+  window.location.protocol = 'https:';
+}
+
 $(function() {
   $('#signup').click(function() {
     $('#signupContainer').collapse('hide');
